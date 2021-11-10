@@ -1,0 +1,8 @@
+mutation {
+  verifyAccount(token: "eyJ1c2VybmFtZSI6InVzZXIyIiwiYWN0aW9uIjoiYWN0aXZhdGlvbiJ9:1mkWHu:33DuaK2oMysbGk7VeYJXEXmGN0BupILPAGsP3b21anQ")
+  {
+    success
+    errors
+  }
+}
+
