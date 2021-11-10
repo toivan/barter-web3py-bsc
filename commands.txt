@@ -1,0 +1,28 @@
+python3 -m venv venv
+source venv/bin/activate (deactivate)
+pip install django
+django-admin startproject core .
+python3 manage.py startapp users
+
+python3 manage.py makemigrations проверка
+python3 manage.py migrate
+
+pip install graphene-django
+pip install django-graphql-jwt
+
+pip freeze > requirements.txt
+
+python3 manage.py migrate после настройки JWL
+
+python3 manage.py createsuperuser
+
+python3 manage.py runserver (Quit the server with CONTROL-C) http://127.0.0.1:8000/admin/login/?next=/admin/
+
+pip install django-graphql-auth
+python manage.py migrate
+
+python3 manage.py runserver
+
+http://127.0.0.1:8000/graphql
+
+
