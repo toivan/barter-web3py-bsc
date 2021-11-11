@@ -31,3 +31,4 @@ python3 manage.py migrate
 
 
 pip install web3
+python3 send.py
