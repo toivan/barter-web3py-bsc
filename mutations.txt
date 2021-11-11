@@ -6,3 +6,9 @@ mutation {
   }
 }
 
+query {
+	me {
+    addressBsc
+  }
+}
+
